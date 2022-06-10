@@ -1,6 +1,6 @@
-name: 🗄️ @SCRF.io Google Onboard
-description: Someone needs a google account
-title: "🗄️ - Onboard"
+name: 🗄️ Google Drive
+description: Folders, permissions, or any questions about SCRF Google Drive Folders.
+title: "🗄️ - Drive"
 labels: [github]
 assignees:
   - SirAh0
