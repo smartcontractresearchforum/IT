@@ -1,6 +1,6 @@
-name: 💾 GitHub Automation
-description: Something isnt automating anymore or something needs to be automated. 
-title: "💾 - Workflow"
+name: 💾 GitHub Teams
+description: Help creating a team or setting team permissions within GitHub.
+title: "💾 - Teams"
 labels: [github]
 assignees:
   - SirAh0

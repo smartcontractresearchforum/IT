@@ -1,6 +1,6 @@
-name: 💾 GitHub Automation
-description: Something isnt automating anymore or something needs to be automated. 
-title: "💾 - Workflow"
+name: 💾 GitHub Onboard
+description: Someone needs to be added to the SCRF GitHub Org
+title: "💾 - Onboard"
 labels: [github]
 assignees:
   - SirAh0
