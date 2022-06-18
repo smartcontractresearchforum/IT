@@ -5,9 +5,8 @@ on:
     types: [opened]
 
 jobs:
-  add-to-calendar:    
-    runs-on: ubuntu-latest
-    if: contains( github.event.issue.title, '🗪')
+  add-to-help-desk:    
+    runs-on: ubuntu-latest    
     steps:    
       - uses: actions/add-to-project@main
         with:
