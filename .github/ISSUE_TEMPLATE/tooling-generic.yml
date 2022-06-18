@@ -1,0 +1,17 @@
+name: 🧰 General Issue
+description: Help with any SCRF property or tooling such as YouTube permissions, paid services such as Adobe, or anything else not covered in the above issue templates. 
+title: "🧰 - General"
+labels: [🧰 General]
+assignees:
+  - SirAh0
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this form!
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: General Issue
+      description: Help with any SCRF property or tooling such as YouTube permissions, paid services such as Adobe, or anything else.
