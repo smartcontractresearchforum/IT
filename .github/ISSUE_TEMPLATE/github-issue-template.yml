@@ -8,12 +8,13 @@ body:
   - type: markdown
     attributes:
       value: |
+        **Types of Meta Data**
         There are three kinds of input fields you can use in your Issue Template to collection information from your user.
         1. Single Line of Text
         2. Text area that features the GitHub text editor
         3. Drop Down menu.
 
-        # Next Steps
+        **Next Steps**
         After this request is submitted, the issue template will be created and added to the appropriate repo.
 
 
