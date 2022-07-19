@@ -8,48 +8,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        There are three kinds of input fields you can use in your Issue Template to collection information from your user.
-        1. Single Line of Text
-        2. Text area that features the GitHub text editor
-        3. Drop Down menu.
-
-        # Next Steps
-        After this request is submitted, the issue template will be created and added to the appropriate repo.
-
-
-  - type: input
-    id: issue-name
-    attributes:
-      label: Issue Template Name
-      description: Use an emjoi that represents the category of issue template, please ask @SirAh0 if you don't know which emoji to use.
-      placeholder: '[ 🐶 ] Issue Template name'
-    validations:
-      required: true      
-
-  - type: input
-    id: repo-name
-    attributes:
-      label: Repo Name
-      description: Where will this issue template be stored?     
-    validations:
-      required: true           
-
+        Thanks for taking the time to fill out this new user form!
   - type: textarea
-    id: project-boards
+    id: text
     attributes:
-      label: Project Boards
-      description: List all Project Boards that this issue should be added to when it is created.   
-
-  - type: textarea
-    id: issue-data
-    attributes:
-      label: Issue Meta Data
-      description: Define the information you want to collect from the user. Plase use an * character to indicate any required fields.      
-    validations:
-      required: true
-
-  - type: textarea
-    id: issue-body
-    attributes:
-      label: Inform the User
-      description: Use this as an opportunity to educate the user about what this issue represents, how they can ensure it is a success, and which Project Boards it will live on.
+      label: Issue Text
+      description: text goes here!
