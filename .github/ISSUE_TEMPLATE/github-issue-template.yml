@@ -17,6 +17,7 @@ body:
         ## Next Steps
         After this request is submitted, the issue template will be created and added to the appropriate repo.
 
+        ## Issue Template Form Data
 
   - type: input
     id: issue-name
