@@ -1,7 +1,7 @@
 name: 🕸️ SCRF.io Short URL
 description: Request a redirect rule for scrf.io
 title: "SCRF.io Short URL - "
-labels: [🕸️scrf.io:short-url]
+labels: ["🕸️scrf.io:short-url"]
 assignees:
   - SirAh0
 body:
