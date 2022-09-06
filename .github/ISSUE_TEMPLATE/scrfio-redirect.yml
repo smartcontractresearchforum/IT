@@ -1,19 +1,28 @@
 name: 🕸️ SCRF.io Short URL
 description: Request a redirect rule for scrf.io
 title: "SCRF.io Short URL - "
-labels: [🕸️scrf.io]
+labels: [🕸️scrf.io:short-url]
 assignees:
   - SirAh0
 body:
   - type: markdown
     attributes:
       value: |
+        #About Short URLs
         If there is a very long URL, such as a link to a github document, the scrf.io domain can be used to create a short-url that will redirect to it.
 
         A good example is the SCRF calendar. 
-        `https://calendar.google.com/calendar/u/0/embed?src=null@scrf.io&ctz=America/Los_Angeles`
 
-        Which has a short-url of `scrf.io/calendar`
+        Short-url is `scrf.io/calendar`
+
+        Which redirects to `https://calendar.google.com/calendar/u/0/embed?src=null@scrf.io&ctz=America/Los_Angeles`        
+
+        #Useage
+        Sharing links on social media such as twitter.
+        Provide easy to follow URLs for presentations.
+
+        #Project Board
+        https://github.com/orgs/smartcontractresearchforum/projects/34/views/8
 
   - type: input
     id: short-url
