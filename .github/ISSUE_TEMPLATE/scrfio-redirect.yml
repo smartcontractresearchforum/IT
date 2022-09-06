@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        #About Short URLs
+        # About Short URLs
         If there is a very long URL, such as a link to a github document, the scrf.io domain can be used to create a short-url that will redirect to it.
 
         A good example is the SCRF calendar. 
@@ -17,11 +17,11 @@ body:
 
         Which redirects to `https://calendar.google.com/calendar/u/0/embed?src=null@scrf.io&ctz=America/Los_Angeles`        
 
-        #Useage
+        # Useage
         Sharing links on social media such as twitter.
         Provide easy to follow URLs for presentations.
 
-        #Project Board
+        # Project Board
         To view all the redirects view the [IT Help Desk Project Board](https://github.com/orgs/smartcontractresearchforum/projects/34/views/8)
         
 
