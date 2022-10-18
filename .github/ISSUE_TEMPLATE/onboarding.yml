@@ -1,0 +1,94 @@
+name: Onboarding
+description: A new user needs onbaording for all SCRF spaces.
+title: "Onbaord - "
+labels: [onboard]
+assignees:
+  - SirAh0
+body:
+
+# ===============================================================================================================[ SCRF ]===
+  - type: markdown
+    attributes:
+      value: |
+        # SCRF Roles        
+  
+  - type: dropdown
+    id: role-level
+    attributes:
+      label:  Role Level      
+      options:
+        - Contributor
+        - Core
+        - Head
+        - Lead        
+    validations:
+      required: true       
+
+  - type: dropdown
+    id: vertical
+    attributes:
+      label:  Vertical
+      options:
+        - Discovery
+        - Enagement
+        - Operations
+        - Content
+        - Outreach
+    validations:
+      required: true 
+
+
+# ===============================================================================================================[ GOOGLE ]===
+  - type: markdown
+    attributes:
+      value: |
+        # Google      
+
+  - type: input
+    id: google-email-backup
+    attributes:
+      label: Email Confirmation
+      description: Auto-generated password and first-time login instructions will be sent to this email.      
+    validations:
+      required: true  
+
+  - type: input    
+    id: google-email-username
+    attributes:
+      label: Google email username
+      description: username@scrf.io
+    validations:
+      required: true    
+
+  - type: input    
+    id: google-email-first-name
+    attributes:
+      label: Google User First Name
+      description: Displayed on user account
+    validations:
+      required: true          
+
+  - type: input    
+    id: google-email-last-name
+    attributes:
+      label: Google User Last Name
+      description: Displayed on user account
+    validations:
+      required: true                
+
+# ===============================================================================================================[ DISCORD ]===
+
+  - type: markdown
+    attributes:
+      value: |
+        # Discord
+
+  - type: input    
+    id: discord-username
+    attributes:
+      label: Discord User Name and Unique ID
+      description: Username#1234
+    validations:
+      required: true                  
+      
+          

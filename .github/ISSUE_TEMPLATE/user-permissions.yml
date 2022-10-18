@@ -1,0 +1,22 @@
+name: User Permissions
+description: Request user permission change for any of the SCRF spaces.
+title: "UAR - "
+labels: ["uar"]
+assignees:
+  - SirAh0
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Platforms
+        Discord
+        Discourse Forum
+        Google
+        etc.        
+
+  - type: textarea
+    id: response
+    attributes:
+      label: Users, Platform, and Desired Change
+      description: Please list each username per platform and the role they need to  have.
+
