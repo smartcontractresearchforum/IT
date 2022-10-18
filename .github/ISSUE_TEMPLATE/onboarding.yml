@@ -55,7 +55,7 @@ body:
   - type: input    
     id: google-email-username
     attributes:
-      label: email
+      label: Email Name
       description: username@scrf.io
     validations:
       required: true    
