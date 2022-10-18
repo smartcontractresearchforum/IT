@@ -91,4 +91,30 @@ body:
     validations:
       required: true                  
       
-          
+# ===============================================================================================================[ GITHUB ]===        
+
+  - type: markdown
+    attributes:
+      value: |
+        # GitHub
+
+  - type: input    
+    id: github-username
+    attributes:
+      label: GitHub User Name       
+    validations:
+      required: true                  
+
+# ===============================================================================================================[ DISCOURSE ]===        
+
+  - type: markdown
+    attributes:
+      value: |
+        # Discourse
+
+  - type: input    
+    id: discourse-username
+    attributes:
+      label: Discourse User Name       
+    validations:
+      required: true                          
