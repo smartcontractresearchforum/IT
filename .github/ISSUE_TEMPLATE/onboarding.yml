@@ -96,8 +96,8 @@ body:
   - type: markdown
     attributes:
       value: |      
-        br> 
-        # GitHub              
+       /
+       # GitHub              
 
   - type: input    
     id: github-username
