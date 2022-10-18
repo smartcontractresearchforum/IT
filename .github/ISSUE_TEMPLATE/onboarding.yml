@@ -55,7 +55,7 @@ body:
   - type: input    
     id: google-email-username
     attributes:
-      label: Google email username
+      label: email
       description: username@scrf.io
     validations:
       required: true    
@@ -63,7 +63,7 @@ body:
   - type: input    
     id: google-email-first-name
     attributes:
-      label: Google User First Name
+      label: First Name
       description: Displayed on user account
     validations:
       required: true          
@@ -71,7 +71,7 @@ body:
   - type: input    
     id: google-email-last-name
     attributes:
-      label: Google User Last Name
+      label: Last Name
       description: Displayed on user account
     validations:
       required: true                
@@ -81,12 +81,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Discord
+       <br>
+
+       # Discord
 
   - type: input    
     id: discord-username
     attributes:
-      label: Discord User Name and Unique ID
+      label: User Name and Unique ID
       description: Username#1234
     validations:
       required: true                  
@@ -103,7 +105,7 @@ body:
   - type: input    
     id: github-username
     attributes:
-      label: GitHub User Name       
+      label: User Name       
     validations:
       required: true                  
 
@@ -112,11 +114,13 @@ body:
   - type: markdown
     attributes:
       value: |
+       <br>
+             
         # Discourse
 
   - type: input    
     id: discourse-username
     attributes:
-      label: Discourse User Name       
+      label: User Name       
     validations:
       required: true                          
