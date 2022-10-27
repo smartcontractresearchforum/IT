@@ -8,7 +8,9 @@
 - [List of All Short URLs](https://github.com/orgs/smartcontractresearchforum/projects/34/views/8)
 - [Request a Short URL](https://scrf.io/short-url)
 
-
+### Request Help
+- [Open an Issue](https://github.com/smartcontractresearchforum/IT/issues/new/choose)
+- [List of Open IT Issues](https://github.com/orgs/smartcontractresearchforum/projects/34/views/6)
 
 ## Learn More About SCRF
 
